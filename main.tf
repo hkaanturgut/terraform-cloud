@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "rg" {
-  name     = "test_rg"
-  location = "canadacentral"
+resource "azurerm_resource_group" "api_rg" {
+  name     = var.rg_name
+  location = var.location
 }
